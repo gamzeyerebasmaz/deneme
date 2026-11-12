@@ -1,0 +1,66 @@
+KOMBİ — ELEVENLABS SESLENDİRME
+==============================
+
+AYARLAR
+-------
+Model: Eleven Multilingual v2  |  Ses: bebek videosundaki ses (Nazlı - Friendly Sympathetic)
+Stability 50 %  |  Similarity 75 %  |  Style 20-30 %  |  Speed 1.0
+Tahmini süre: ~95-100 sn. Videonun sonuna 3 sn logo kartı eklenecek.
+
+Süreyi birebir tutturmanız gerekmiyor: animasyonu sizin sesinize göre kuracağım.
+<break> etiketleri sahne geçişlerindeki nefes boşluklarıdır.
+
+
+TEK PARÇA METİN (kopyala - yapıştır)
+-----------------------------------
+Kombiyi hiç kapatmamanın daha ekonomik olduğunu duyduysan, <break time="0.2s" /> maalesef yanlış bilgi. <break time="0.6s" />
+Herkesin bildiği şu: <break time="0.2s" /> kapatırsan, sabah evi ısıtmak için çok daha fazla gaz yakar. <break time="0.5s" />
+Evet, sabah biraz fazla yakar... <break time="0.2s" /> ama bütün gece yaktığı kadar değil. <break time="0.7s" />
+Bir bardak çay düşün. <break time="0.3s" />
+Kaynar çay, ılık çaydan çok daha çabuk soğur. <break time="0.4s" />
+Çünkü sıcaklık farkı büyüdükçe, ısı daha hızlı kaçar. <break time="0.6s" />
+Evin de aynen böyle çalışır. <break time="0.3s" />
+İçerisi dışarıdan ne kadar sıcaksa, ısı duvarlardan ve camlardan o kadar hızlı kaçar. <break time="0.5s" />
+Kombi gece boyu yirmi iki derecede kalırsa, ev sabaha kadar en hızlı şekilde ısı kaybeder; <break time="0.2s" /> kombi de kaybolan ısıyı durmadan geri doldurur. <break time="0.6s" />
+Ama evi biraz serin bırakırsan, fark küçülür, ısı daha yavaş kaçar. <break time="0.3s" />
+Kaçmayan ısı da cebinde kalır. <break time="0.7s" />
+İngiltere'de bir üniversite bunu gerçek bir deney evinde test etti. <break time="0.4s" />
+Gün boyu açık kalan sistem, on beş saat daha uzun çalıştı <break time="0.2s" /> ve yüzde otuz bir daha fazla gaz harcadı. <break time="0.7s" />
+Tamamen kapatmana da gerek yok. <break time="0.3s" />
+Evde değilken ya da uyurken termostatı on yedi, on sekiz dereceye indirmen yeterli. <break time="0.3s" />
+Ev fazla soğumaz, sabah da çabucak ısınır. <break time="0.4s" />
+Evde bebek, yaşlı ya da hasta varsa, ayarı ona göre yap. <break time="0.7s" />
+Bu gece yatmadan gaz sayacına bir bak, <break time="0.2s" /> sabah tekrar bak. <break time="0.3s" />
+Farkı kendi gözünle gör. <break time="0.6s" />
+Hâlâ kombiyi hiç kapatmayan birini tanıyorsan, onu etiketle ya da bu videoyu gönder. <break time="0.4s" />
+Sırada hangi cihaz olsun? <break time="0.2s" /> Yorumlara yaz, takip etmeyi de unutma.
+
+
+SAHNE PLANI (ton ve görüntü)
+----------------------------
+1  Kanca         "Kombiyi hiç kapatmamanın..." / "maalesef yanlış bilgi."
+                 Ton: merak, sonra gülümseyen itiraz.  Görüntü: duvarda sevimli kombi (gözlü), ekranda 22°, bebek "hı?" bakışı; kırmızı çarpı.
+2  Herkesin dediği  "Herkesin bildiği şu..."  Ton: taklit eder gibi, hafif abartılı.
+                 Görüntü: konuşma balonları "Sakın kapatma!", "Sabah iki kat yakar!"; gaz sayacı dönüyor.
+3  Gece vs sabah  "Evet, sabah biraz fazla yakar..."  Ton: sakin düzeltme.
+                 Görüntü: iki çubuk: "Sabah ısınma" kısa, "Gece boyu açık" uzun.
+4  Çay           "Bir bardak çay düşün..." / "Kaynar çay..." / "Çünkü sıcaklık farkı..."
+                 Ton: öğretici, samimi.  Görüntü: iki pastel çay bardağı, buharlı; termometreler hızlı / yavaş düşer.
+5  Ev            "Evin de aynen böyle..." / "İçerisi dışarıdan..."
+                 Ton: açıklayıcı.  Görüntü: kesit ev, gece, duvar ve camlardan turuncu ısı okları kaçıyor.
+6  22 derece     "Kombi gece boyu yirmi iki derecede..."  Ton: hafif dert yanan.
+                 Görüntü: bebek uyuyor, oklar çok, kombi terliyor/yoruluyor.
+7  Serin ev      "Ama evi biraz serin bırakırsan..." / "Kaçmayan ısı da cebinde kalır."
+                 Ton: rahatlamış, sıcak.  Görüntü: oklar azalır, bebek battaniyede mutlu; cebe giren lira/coin.
+8  Deney         "İngiltere'de bir üniversite..." / "Gün boyu açık kalan sistem..."
+                 Ton: ciddi, bilgi veren; "yüzde otuz bir"i vurgula.
+                 Görüntü: iki minik ev, saat halkaları 24 sa / 9 sa, gaz çubukları, "+%31 GAZ".
+9  18 yeter      "Tamamen kapatmana da gerek yok..." / "...on yedi, on sekiz dereceye..." / "Ev fazla soğumaz..."
+                 Ton: rahatlatıcı.  Görüntü: termostat 22'den 18'e iner; ay, sonra güneş; ev ısınır.
+10 İstisna        "Evde bebek, yaşlı ya da hasta varsa..."  Ton: şefkatli, ciddi.
+                 Görüntü: bebek + büyükanne + hasta (ateş ölçer) kartı.
+11 Deney yap      "Bu gece yatmadan gaz sayacına..." / "Farkı kendi gözünle gör."
+                 Ton: davetkâr.  Görüntü: ay -> gaz sayacı, güneş -> sayaç; fark parlar.
+12 Çağrı          "Hâlâ kombiyi hiç kapatmayan..." / "Sırada hangi cihaz olsun?..."
+                 Ton: enerjik, gülümseyen.  Görüntü: etiket/gönder ikonları, soru işaretli cihazlar, takip et butonu.
+13 Logo          ses yok, 3 sn.
