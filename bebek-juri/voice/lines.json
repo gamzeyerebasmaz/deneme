@@ -314,30 +314,25 @@
  {
   "t0": 26.5,
   "t1": 28.6,
-  "text": "Sıkıldılar mı, başlarını çevirirler.",
+  "text": "Sıkıldıklarında başlarını çevirirler.",
   "words": [
    {
-    "w": "Sıkıldılar",
+    "w": "Sıkıldıklarında",
     "t": 0.1,
-    "d": 0.6625
-   },
-   {
-    "w": "mı",
-    "t": 0.7625,
-    "d": 0.175
+    "d": 0.85
    },
    {
     "w": "başlarını",
-    "t": 1.0375,
-    "d": 0.55
+    "t": 0.95,
+    "d": 0.5
    },
    {
     "w": "çevirirler",
-    "t": 1.5875,
+    "t": 1.45,
     "d": 0.6875
    }
   ],
-  "speech": 2.27
+  "speech": 2.14
  },
  {
   "t0": 29.0,
