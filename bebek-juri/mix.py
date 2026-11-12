@@ -9,7 +9,7 @@ def load(path):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-f', 'f32le', '-ac', '1', '-ar', str(SR), '-'], capture_output=True, check=True).stdout
     return np.frombuffer(raw, np.float32).astype(float)
 for i, l in enumerate(L):
-    add(buf, load(f'voice/l{i:02d}.mp3'), l['t0'], 0.9)
+    add(buf, load(f'voice/el{i:02d}.wav'), l['t0'], 0.9)
 # soft music bed: bell-like arpeggio, C-Am-F-G, 96 bpm
 beat = 60 / 96
 chords = [[60, 64, 67, 72], [57, 60, 64, 69], [53, 57, 60, 65], [55, 59, 62, 67]]
