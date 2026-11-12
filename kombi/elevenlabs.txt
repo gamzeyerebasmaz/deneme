@@ -3,7 +3,8 @@ KOMBİ — ELEVENLABS SESLENDİRME
 
 AYARLAR
 -------
-Model: Eleven Multilingual v2  |  Ses: bebek videosundaki ses (Nazlı - Friendly Sympathetic)
+Model: Eleven Multilingual v2  |  Ses: ERKEK. Voice Library'de "Turkish male, friendly, warm, narrator / conversational"
+diye arayın: 25-35 yaş, samimi, hafif gülümseyen, "abi anlatıyor" tonunda; spiker gibi resmi olmasın.
 Stability 50 %  |  Similarity 75 %  |  Style 20-30 %  |  Speed 1.0
 Tahmini süre: ~95-100 sn. Videonun sonuna 3 sn logo kartı eklenecek.
 
