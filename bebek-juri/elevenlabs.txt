@@ -1,0 +1,75 @@
+BEBEK JÜRİ — ELEVENLABS SESLENDİRME
+====================================
+
+AYARLAR
+-------
+Model: Eleven Multilingual v2 (Türkçe için)
+Ses: sıcak, genç bir kadın ya da erkek anlatıcı. Hafif gülümseyen, merak uyandıran, sohbet eder gibi.
+Stability: 45-55 %   |   Similarity: 75 %   |   Style: 20-30 %   |   Speed: 1.0
+Toplam süre: ~34 saniye seslendirme (video 37 sn, son 3 sn logo, ses yok)
+
+Video hızı yaklaşık saniyede 2,5 kelime. <break> etiketleri sahne geçişlerindeki
+nefes boşluklarıdır; metni olduğu gibi tek parça yapıştırabilirsiniz.
+
+
+TEK PARÇA METİN (kopyala - yapıştır)
+-----------------------------------
+Bir bebek gözünü sizden ayırmıyorsa... <break time="0.3s" /> bunu bir iltifat sayabilirsiniz. <break time="0.6s" />
+Araştırmacılar bebeklerin önüne iki yüz koydu. <break time="0.5s" />
+Bebekler, yetişkinlerin daha çekici bulduğu yüzü daha uzun izledi. <break time="0.4s" />
+Üstelik daha birkaç günlükken. <break time="0.6s" />
+Onlara güzelliği kimse anlatmadı. <break time="0.3s" />
+Ne dergi, ne dizi, ne de filtre. <break time="0.5s" />
+Ama yine de biliyorlar. <break time="0.6s" />
+Bir de bebekler nezaketen bakmaz. <break time="0.3s" />
+Sıkıldıklarında başlarını çevirirler. <break time="0.5s" />
+Yani o bakış... <break time="0.4s" /> dünyanın en dürüst jürisinden gelen bir puan.
+
+
+SAHNE SAHNE (zaman, süre, ton)
+------------------------------
+Sahne 1 — Jüri masası
+  00.3 - 03.1 sn  (2,8 sn)  "Bir bebek gözünü sizden ayırmıyorsa..."
+      Ton: merak uyandıran, yavaş başla, sonda askıda bırak.
+  03.1 - 06.0 sn  (2,9 sn)  "bunu bir iltifat sayabilirsiniz."
+      Ton: gülümseyerek, hafif göz kırpar gibi.
+
+Sahne 2 — İki fotoğraf
+  06.0 - 09.6 sn  (3,6 sn)  "Araştırmacılar bebeklerin önüne iki yüz koydu."
+      Ton: anlatıcı, sakin, bilgi veren.
+  09.6 - 13.9 sn  (4,3 sn)  "Bebekler, yetişkinlerin daha çekici bulduğu yüzü daha uzun izledi."
+      Ton: "Bebekler"den sonra kısa durak; "daha uzun"u hafif vurgula.
+
+Sahne 3 — 3 günlük takvim
+  13.9 - 16.4 sn  (2,5 sn)  "Üstelik daha birkaç günlükken."
+      Ton: şaşırtıcı bilgi; "birkaç günlükken" vurgulu.
+
+Sahne 4 — Dergi / dizi / filtre
+  16.4 - 19.2 sn  (2,8 sn)  "Onlara güzelliği kimse anlatmadı."
+      Ton: düz, ciddi.
+  19.2 - 22.3 sn  (3,1 sn)  "Ne dergi, ne dizi, ne de filtre."
+      Ton: ritmik, her "ne"den sonra minik durak (ikonlar tek tek çıkıyor).
+  22.3 - 24.2 sn  (1,9 sn)  "Ama yine de biliyorlar."
+      Ton: sıcak, hafif hayranlık.
+
+Sahne 5 — Bebek sıkılıyor
+  24.2 - 26.5 sn  (2,3 sn)  "Bir de bebekler nezaketen bakmaz."
+      Ton: esprili, hafif alaycı.
+  26.5 - 29.0 sn  (2,5 sn)  "Sıkıldıklarında başlarını çevirirler."
+      Ton: kuru mizah; "çevirirler"i biraz uzat.
+
+Sahne 6 — Jüri puanı
+  29.0 - 30.8 sn  (1,8 sn)  "Yani o bakış..."
+      Ton: yavaşla, yumuşak.
+  30.8 - 34.3 sn  (3,5 sn)  "dünyanın en dürüst jürisinden gelen bir puan."
+      Ton: sıcak final, gülümseyerek bitir.
+
+Sahne 7 — Logo
+  34.3 - 37.0 sn  Ses yok (müzik ve logo).
+
+
+NOT
+---
+Süreler birebir tutmak zorunda değil. ElevenLabs'tan aldığınız ses dosyasını
+(mp3) gönderin; altyazıları ve sahneleri sizin sesinize göre yeniden zamanlayıp
+videoyu yeniden çıkarırım.
