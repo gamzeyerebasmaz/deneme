@@ -1,0 +1,7 @@
+node_modules/
+out/
+public/vo/
+public/music/
+public/sfx/
+public/noise.png
+__pycache__/

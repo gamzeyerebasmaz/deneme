@@ -1,0 +1,1318 @@
+[
+ {
+  "id": "s01",
+  "title": "Son sabah",
+  "label": "08:00",
+  "target": 45,
+  "pre": 5.5,
+  "paras": [
+   [
+    {
+     "text": "Saat sabah sekiz.",
+     "file": "s01_00_0.wav",
+     "dur": 1.278
+    }
+   ],
+   [
+    {
+     "text": "Dünyanın en kalabalık şehirlerinden birinde trafik her zamanki gibi kilitlenmiş.",
+     "file": "s01_01_0.wav",
+     "dur": 4.139
+    },
+    {
+     "text": "Milyonlarca insan işe yetişmeye çalışıyor.",
+     "file": "s01_01_1.wav",
+     "dur": 2.399
+    }
+   ],
+   [
+    {
+     "text": "Ve bir anda...",
+     "file": "s01_02_0.wav",
+     "dur": 0.854
+    }
+   ],
+   [
+    {
+     "text": "Herkes yok oluyor.",
+     "file": "s01_03_0.wav",
+     "dur": 1.125
+    }
+   ],
+   [
+    {
+     "text": "Ne bir patlama var, ne bir salgın, ne de bir savaş.",
+     "file": "s01_04_0.wav",
+     "dur": 3.069
+    }
+   ],
+   [
+    {
+     "text": "Sadece insanlar kayboluyor.",
+     "file": "s01_05_0.wav",
+     "dur": 1.839
+    }
+   ],
+   [
+    {
+     "text": "Uçaklar hâlâ gökyüzünde.",
+     "file": "s01_06_0.wav",
+     "dur": 1.587
+    },
+    {
+     "text": "Trenler hareket ediyor.",
+     "file": "s01_06_1.wav",
+     "dur": 1.308
+    },
+    {
+     "text": "Telefonlar çalıyor.",
+     "file": "s01_06_2.wav",
+     "dur": 1.178
+    },
+    {
+     "text": "Kahve makineleri çalışıyor.",
+     "file": "s01_06_3.wav",
+     "dur": 1.586
+    }
+   ],
+   [
+    {
+     "text": "Ama artık hiçbirinin başında bir insan yok.",
+     "file": "s01_07_0.wav",
+     "dur": 2.278
+    }
+   ],
+   [
+    {
+     "text": "Peki, biz olmadan Dünya ne kadar dayanabilir?",
+     "file": "s01_08_0.wav",
+     "dur": 2.494
+    }
+   ],
+   [
+    {
+     "text": "İlk 24 saatte neler olur?",
+     "file": "s01_09_0.wav",
+     "dur": 1.738
+    },
+    {
+     "text": "Bir yıl sonra şehirler nasıl görünür?",
+     "file": "s01_09_1.wav",
+     "dur": 2.076
+    },
+    {
+     "text": "Ve bin yıl sonra bizden geriye ne kalır?",
+     "file": "s01_09_2.wav",
+     "dur": 2.208
+    }
+   ],
+   [
+    {
+     "text": "Saat işlemeye başladı.",
+     "file": "s01_10_0.wav",
+     "dur": 1.435
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s02",
+  "title": "İlk 60 dakika",
+  "label": "+1 SAAT",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "İlk dakikalarda dünya hâlâ normal görünür.",
+     "file": "s02_00_0.wav",
+     "dur": 2.444
+    }
+   ],
+   [
+    {
+     "text": "Trafik ışıkları yanıp söner.",
+     "file": "s02_01_0.wav",
+     "dur": 1.523
+    },
+    {
+     "text": "Fabrikalarda makineler çalışır.",
+     "file": "s02_01_1.wav",
+     "dur": 1.785
+    },
+    {
+     "text": "Bazı trenler otomatik güvenlik sistemleri sayesinde durur.",
+     "file": "s02_01_2.wav",
+     "dur": 3.188
+    }
+   ],
+   [
+    {
+     "text": "Ama her sistem kendini kurtaramaz.",
+     "file": "s02_02_0.wav",
+     "dur": 2.0
+    }
+   ],
+   [
+    {
+     "text": "Sürücüsüz kalan otomobillerin bir kısmı yoldan çıkar.",
+     "file": "s02_03_0.wav",
+     "dur": 2.885
+    },
+    {
+     "text": "Kontrolsüz araçlar kavşaklarda birbirine çarpar.",
+     "file": "s02_03_1.wav",
+     "dur": 2.828
+    }
+   ],
+   [
+    {
+     "text": "Gökyüzündeki uçakların durumu daha karmaşıktır.",
+     "file": "s02_04_0.wav",
+     "dur": 2.567
+    }
+   ],
+   [
+    {
+     "text": "Otopilot açık olan bazı uçaklar rotalarını bir süre koruyabilir.",
+     "file": "s02_05_0.wav",
+     "dur": 3.361
+    },
+    {
+     "text": "Ama hiçbir otomatik sistem, sonsuza kadar pilotun yerini alamaz.",
+     "file": "s02_05_1.wav",
+     "dur": 3.548
+    }
+   ],
+   [
+    {
+     "text": "Yakıt azalır.",
+     "file": "s02_06_0.wav",
+     "dur": 0.847
+    },
+    {
+     "text": "Kontrol edilmeyen uçaklar sonunda düşer.",
+     "file": "s02_06_1.wav",
+     "dur": 2.264
+    }
+   ],
+   [
+    {
+     "text": "İlginç olan şu: İnsanlık yok olmuştur, fakat makineler henüz bunu bilmiyordur.",
+     "file": "s02_07_0.wav",
+     "dur": 4.559
+    }
+   ],
+   [
+    {
+     "text": "Bir telefon alarmı çalar.",
+     "file": "s02_08_0.wav",
+     "dur": 1.496
+    }
+   ],
+   [
+    {
+     "text": "Kimse kapatmaz.",
+     "file": "s02_09_0.wav",
+     "dur": 1.117
+    }
+   ],
+   [
+    {
+     "text": "Bir restoranda sipariş ekranı yanıp söner.",
+     "file": "s02_10_0.wav",
+     "dur": 2.402
+    }
+   ],
+   [
+    {
+     "text": "Kimse gelip yemeği almaz.",
+     "file": "s02_11_0.wav",
+     "dur": 1.532
+    }
+   ],
+   [
+    {
+     "text": "Dünya tarihinin en büyük felaketi yaşanmıştır.",
+     "file": "s02_12_0.wav",
+     "dur": 2.692
+    }
+   ],
+   [
+    {
+     "text": "Ve milyonlarca cihaz, sanki hiçbir şey olmamış gibi çalışmaya devam etmektedir.",
+     "file": "s02_13_0.wav",
+     "dur": 4.499
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s03",
+  "title": "İlk 24 saat",
+  "label": "+24 SAAT",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "İlk günün sonunda medeniyetin görünmez kahramanı sahneden çekilmeye başlar.",
+     "file": "s03_00_0.wav",
+     "dur": 3.835
+    }
+   ],
+   [
+    {
+     "text": "Elektrik.",
+     "file": "s03_01_0.wav",
+     "dur": 0.694
+    }
+   ],
+   [
+    {
+     "text": "Modern bir şehirde elektriğin sürekli bulunması, binlerce farklı sistemin dengede kalmasına bağlıdır.",
+     "file": "s03_02_0.wav",
+     "dur": 5.291
+    }
+   ],
+   [
+    {
+     "text": "Üretim ve tüketim sürekli değişir.",
+     "file": "s03_03_0.wav",
+     "dur": 1.884
+    },
+    {
+     "text": "Operatörler, bilgisayarlar ve koruma sistemleri bu dengeyi korumaya çalışır.",
+     "file": "s03_03_1.wav",
+     "dur": 4.139
+    }
+   ],
+   [
+    {
+     "text": "Artık operatörler yoktur.",
+     "file": "s03_04_0.wav",
+     "dur": 1.594
+    }
+   ],
+   [
+    {
+     "text": "Bazı santraller otomatik olarak kapanır.",
+     "file": "s03_05_0.wav",
+     "dur": 2.274
+    },
+    {
+     "text": "Bazı bölgelerde elektrik bir süre daha devam eder.",
+     "file": "s03_05_1.wav",
+     "dur": 2.849
+    },
+    {
+     "text": "Fakat arızaları giderecek kimse kalmadığı için kesintiler yayılır.",
+     "file": "s03_05_2.wav",
+     "dur": 3.38
+    }
+   ],
+   [
+    {
+     "text": "Gecenin karanlığında şehirlerin ışıkları birer birer söner.",
+     "file": "s03_06_0.wav",
+     "dur": 2.991
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanlar uzaydan görülebilen devasa aydınlık alanlar küçülür.",
+     "file": "s03_07_0.wav",
+     "dur": 3.577
+    }
+   ],
+   [
+    {
+     "text": "Ama bütün Dünya aynı anda karanlığa gömülmez.",
+     "file": "s03_08_0.wav",
+     "dur": 2.507
+    }
+   ],
+   [
+    {
+     "text": "Bağımsız çalışan bazı sistemler daha uzun süre dayanabilir.",
+     "file": "s03_09_0.wav",
+     "dur": 3.241
+    }
+   ],
+   [
+    {
+     "text": "Bir apartmanın penceresinde son ışıklardan biri yanmaktadır.",
+     "file": "s03_10_0.wav",
+     "dur": 3.173
+    }
+   ],
+   [
+    {
+     "text": "Sonra o da söner.",
+     "file": "s03_11_0.wav",
+     "dur": 1.249
+    }
+   ],
+   [
+    {
+     "text": "Artık şehirleri aydınlatan en güvenilir kaynak, gökyüzündeki Ay'dır.",
+     "file": "s03_12_0.wav",
+     "dur": 3.791
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s04",
+  "title": "İlk hafta",
+  "label": "+7 GÜN",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "Bir hafta geçti.",
+     "file": "s04_00_0.wav",
+     "dur": 1.101
+    }
+   ],
+   [
+    {
+     "text": "Artık şehirlerdeki en büyük sorun, makinelerin durması değil.",
+     "file": "s04_01_0.wav",
+     "dur": 3.323
+    }
+   ],
+   [
+    {
+     "text": "Geride bıraktığımız canlıların hayatta kalması.",
+     "file": "s04_02_0.wav",
+     "dur": 2.477
+    }
+   ],
+   [
+    {
+     "text": "Evlerin içinde kilitli kalan hayvanlar suya ve yiyeceğe ulaşmakta zorlanır.",
+     "file": "s04_03_0.wav",
+     "dur": 3.89
+    }
+   ],
+   [
+    {
+     "text": "Bazı köpekler kapalı alanlardan çıkamaz.",
+     "file": "s04_04_0.wav",
+     "dur": 2.423
+    },
+    {
+     "text": "Bazı kediler açık pencerelerden dışarı ulaşır.",
+     "file": "s04_04_1.wav",
+     "dur": 2.578
+    }
+   ],
+   [
+    {
+     "text": "Çiftliklerde ise durum çok daha ağır olabilir.",
+     "file": "s04_05_0.wav",
+     "dur": 2.637
+    }
+   ],
+   [
+    {
+     "text": "İnsan bakımına bağımlı hayvanlar, otomatik yemleme ve sulama sistemleri çalışmadığında ciddi tehlikeyle karşılaşır.",
+     "file": "s04_06_0.wav",
+     "dur": 6.06
+    }
+   ],
+   [
+    {
+     "text": "Marketlerde soğutma sistemleri durmuştur.",
+     "file": "s04_07_0.wav",
+     "dur": 2.347
+    }
+   ],
+   [
+    {
+     "text": "Taze yiyecekler bozulmaya başlar.",
+     "file": "s04_08_0.wav",
+     "dur": 1.989
+    }
+   ],
+   [
+    {
+     "text": "Buzdolaplarının kapakları kapalıdır, ama artık içlerinde soğuk yoktur.",
+     "file": "s04_09_0.wav",
+     "dur": 3.829
+    }
+   ],
+   [
+    {
+     "text": "Su şebekelerinde basınç kaybolabilir.",
+     "file": "s04_10_0.wav",
+     "dur": 2.09
+    },
+    {
+     "text": "Bazı depolar ve yerçekimiyle çalışan sistemler bir süre su sağlayabilir.",
+     "file": "s04_10_1.wav",
+     "dur": 3.988
+    }
+   ],
+   [
+    {
+     "text": "Fakat suyu arıtacak, pompaları onaracak ve borulardaki arızaları giderecek kimse yoktur.",
+     "file": "s04_11_0.wav",
+     "dur": 4.823
+    }
+   ],
+   [
+    {
+     "text": "İnsanların inşa ettiği dünya, insanların bakımına bağımlıydı.",
+     "file": "s04_12_0.wav",
+     "dur": 3.356
+    }
+   ],
+   [
+    {
+     "text": "Ve bu bakım bir hafta önce sonsuza kadar durdu.",
+     "file": "s04_13_0.wav",
+     "dur": 2.529
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s05",
+  "title": "İlk ay",
+  "label": "+30 GÜN",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "Bir ay sonra, şehirlerin altında sessiz bir dönüşüm başlamıştır.",
+     "file": "s05_00_0.wav",
+     "dur": 3.591
+    }
+   ],
+   [
+    {
+     "text": "New York metrosunu düşünün.",
+     "file": "s05_01_0.wav",
+     "dur": 1.501
+    }
+   ],
+   [
+    {
+     "text": "Normal zamanlarda yeraltına sızan milyonlarca galon su, pompalar sayesinde dışarı atılır.",
+     "file": "s05_02_0.wav",
+     "dur": 4.963
+    }
+   ],
+   [
+    {
+     "text": "Ama artık pompalar çalışmıyordur.",
+     "file": "s05_03_0.wav",
+     "dur": 1.891
+    }
+   ],
+   [
+    {
+     "text": "Yağmur, yeraltı suyu ve sızıntılar bazı tünellerde birikmeye başlar.",
+     "file": "s05_04_0.wav",
+     "dur": 3.87
+    }
+   ],
+   [
+    {
+     "text": "İstasyonlar yavaş yavaş karanlık su havuzlarına dönüşebilir.",
+     "file": "s05_05_0.wav",
+     "dur": 3.247
+    }
+   ],
+   [
+    {
+     "text": "Yeryüzünde de başka tehlikeler vardır.",
+     "file": "s05_06_0.wav",
+     "dur": 2.201
+    }
+   ],
+   [
+    {
+     "text": "Kimyasal tesislerde, rafinerilerde ve depolarda bakım gerektiren sistemler devre dışı kalabilir.",
+     "file": "s05_07_0.wav",
+     "dur": 5.258
+    }
+   ],
+   [
+    {
+     "text": "Bazı tesisler güvenli biçimde kapanırken, bazılarında yangınlar veya sızıntılar meydana gelebilir.",
+     "file": "s05_08_0.wav",
+     "dur": 5.424
+    }
+   ],
+   [
+    {
+     "text": "Peki ya nükleer santraller?",
+     "file": "s05_09_0.wav",
+     "dur": 1.598
+    }
+   ],
+   [
+    {
+     "text": "Bir reaktör kapatıldığında zincirleme reaksiyon durdurulur.",
+     "file": "s05_10_0.wav",
+     "dur": 2.944
+    },
+    {
+     "text": "Ama yakıtın ürettiği artık ısının uzaklaştırılması yine de gerekir.",
+     "file": "s05_10_1.wav",
+     "dur": 3.405
+    }
+   ],
+   [
+    {
+     "text": "Yedek güç ve soğutma sistemleri önemli bir koruma sağlar.",
+     "file": "s05_11_0.wav",
+     "dur": 3.069
+    }
+   ],
+   [
+    {
+     "text": "Ancak insan müdahalesi olmadan uzun süreli arızalar yaşanırsa bazı tesislerde ağır kazalar mümkün olabilir.",
+     "file": "s05_12_0.wav",
+     "dur": 6.203
+    }
+   ],
+   [
+    {
+     "text": "Bu, bütün santrallerin aynı gün patlayacağı anlamına gelmez.",
+     "file": "s05_13_0.wav",
+     "dur": 3.094
+    }
+   ],
+   [
+    {
+     "text": "Gerçek daha karmaşık, ama yeterince ürkütücüdür.",
+     "file": "s05_14_0.wav",
+     "dur": 2.856
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s06",
+  "title": "Bir yıl sonra",
+  "label": "+1 YIL",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "Bir yıl sonra, Dünya'nın görüntüsü değişmeye başlamıştır.",
+     "file": "s06_00_0.wav",
+     "dur": 3.302
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanlar otomobillerle dolu olan yollar artık sessizdir.",
+     "file": "s06_01_0.wav",
+     "dur": 3.245
+    }
+   ],
+   [
+    {
+     "text": "Asfaltın çatlaklarından otlar yükselir.",
+     "file": "s06_02_0.wav",
+     "dur": 2.261
+    }
+   ],
+   [
+    {
+     "text": "Bakımı yapılmayan parklar büyür.",
+     "file": "s06_03_0.wav",
+     "dur": 1.805
+    },
+    {
+     "text": "Bahçeler yabani bitkilerle dolar.",
+     "file": "s06_03_1.wav",
+     "dur": 1.98
+    }
+   ],
+   [
+    {
+     "text": "Bazı şehirlerde tilkiler, kuşlar ve küçük memeliler daha önce insanlardan kaçındıkları alanları kullanmaya başlar.",
+     "file": "s06_04_0.wav",
+     "dur": 6.131
+    }
+   ],
+   [
+    {
+     "text": "Ancak doğanın geri dönüşü her canlı için aynı anlama gelmez.",
+     "file": "s06_05_0.wav",
+     "dur": 3.364
+    }
+   ],
+   [
+    {
+     "text": "İnsan bakımına bağımlı bazı evcil hayvan türleri ve çiftlik hayvanları büyük kayıplar yaşamış olabilir.",
+     "file": "s06_06_0.wav",
+     "dur": 5.2
+    }
+   ],
+   [
+    {
+     "text": "Yaban hayatının tepkisi ise bölgeden bölgeye değişir.",
+     "file": "s06_07_0.wav",
+     "dur": 3.204
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanlar insanların sesinden kaçan hayvanlar, şimdi sessiz sokakları keşfediyordur.",
+     "file": "s06_08_0.wav",
+     "dur": 4.755
+    }
+   ],
+   [
+    {
+     "text": "Bir tilki, terk edilmiş bir alışveriş merkezinin girişinde durur.",
+     "file": "s06_09_0.wav",
+     "dur": 3.421
+    }
+   ],
+   [
+    {
+     "text": "Cam kapıların arkasında hâlâ mankenler vardır.",
+     "file": "s06_10_0.wav",
+     "dur": 2.69
+    }
+   ],
+   [
+    {
+     "text": "Tilki içeri bakar.",
+     "file": "s06_11_0.wav",
+     "dur": 1.1
+    }
+   ],
+   [
+    {
+     "text": "Ve yoluna devam eder.",
+     "file": "s06_12_0.wav",
+     "dur": 1.261
+    }
+   ],
+   [
+    {
+     "text": "Dünyanın yeni sahipleri henüz kim olduklarını bilmiyordur.",
+     "file": "s06_13_0.wav",
+     "dur": 3.204
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s07",
+  "title": "On yıl sonra",
+  "label": "+10 YIL",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "On yıl geçti.",
+     "file": "s07_00_0.wav",
+     "dur": 0.893
+    }
+   ],
+   [
+    {
+     "text": "Artık dünyanın birçok şehrinde insan yokluğunun izleri açıkça görülür.",
+     "file": "s07_01_0.wav",
+     "dur": 3.704
+    }
+   ],
+   [
+    {
+     "text": "Çatılar akmaya başlar.",
+     "file": "s07_02_0.wav",
+     "dur": 1.351
+    },
+    {
+     "text": "Nem, duvarların içine ilerler.",
+     "file": "s07_02_1.wav",
+     "dur": 1.814
+    }
+   ],
+   [
+    {
+     "text": "Ahşap yapılar çürür.",
+     "file": "s07_03_0.wav",
+     "dur": 1.295
+    },
+    {
+     "text": "Metal yüzeylerde paslanma artar.",
+     "file": "s07_03_1.wav",
+     "dur": 1.969
+    }
+   ],
+   [
+    {
+     "text": "Bitki kökleri küçük çatlakları büyütür.",
+     "file": "s07_04_0.wav",
+     "dur": 2.084
+    }
+   ],
+   [
+    {
+     "text": "Bazı yolların kenarları ağaçlarla kaplanır.",
+     "file": "s07_05_0.wav",
+     "dur": 2.356
+    }
+   ],
+   [
+    {
+     "text": "Ama filmlerde gördüğümüz gibi bütün gökdelenler bir anda yıkılmaz.",
+     "file": "s07_06_0.wav",
+     "dur": 3.438
+    }
+   ],
+   [
+    {
+     "text": "İyi tasarlanmış ve dayanıklı yapılar çok daha uzun süre ayakta kalabilir.",
+     "file": "s07_07_0.wav",
+     "dur": 3.667
+    }
+   ],
+   [
+    {
+     "text": "En hızlı değişim, suyun ve iklimin yapılara en fazla zarar verdiği yerlerde görülür.",
+     "file": "s07_08_0.wav",
+     "dur": 4.463
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanlar her sabah milyonlarca insanı taşıyan yollar, artık sadece rüzgârı ve yağmuru karşılar.",
+     "file": "s07_09_0.wav",
+     "dur": 5.527
+    }
+   ],
+   [
+    {
+     "text": "Ve burada ilginç bir şey fark ederiz.",
+     "file": "s07_10_0.wav",
+     "dur": 2.149
+    }
+   ],
+   [
+    {
+     "text": "İnsanların kurduğu medeniyetin en büyük düşmanı, devasa bir felaket değildir.",
+     "file": "s07_11_0.wav",
+     "dur": 4.353
+    }
+   ],
+   [
+    {
+     "text": "Bazen yalnızca küçük bir su sızıntısıdır.",
+     "file": "s07_12_0.wav",
+     "dur": 2.414
+    }
+   ],
+   [
+    {
+     "text": "Çünkü o sızıntıyı tamir edecek kimse kalmamıştır.",
+     "file": "s07_13_0.wav",
+     "dur": 2.868
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s08",
+  "title": "Elli yıl sonra",
+  "label": "+50 YIL",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "Elli yıl sonra, bazı bölgelerde şehirlerle ormanlar arasındaki sınır belirsizleşmiştir.",
+     "file": "s08_00_0.wav",
+     "dur": 4.723
+    }
+   ],
+   [
+    {
+     "text": "Bakımı yapılmayan köprülerin metal parçaları korozyona uğrar.",
+     "file": "s08_01_0.wav",
+     "dur": 3.169
+    }
+   ],
+   [
+    {
+     "text": "Betonun içine giren su, donma ve çözülme döngüleriyle hasarı büyütebilir.",
+     "file": "s08_02_0.wav",
+     "dur": 3.968
+    }
+   ],
+   [
+    {
+     "text": "Bazı yapılar çöker.",
+     "file": "s08_03_0.wav",
+     "dur": 1.274
+    }
+   ],
+   [
+    {
+     "text": "Bazılarıysa şaşırtıcı biçimde ayakta kalır.",
+     "file": "s08_04_0.wav",
+     "dur": 2.484
+    }
+   ],
+   [
+    {
+     "text": "Çünkü her binanın kaderi aynı değildir.",
+     "file": "s08_05_0.wav",
+     "dur": 2.229
+    }
+   ],
+   [
+    {
+     "text": "İklim, kullanılan malzeme, yapının yaşı ve bulunduğu yer sonucu değiştirir.",
+     "file": "s08_06_0.wav",
+     "dur": 4.028
+    }
+   ],
+   [
+    {
+     "text": "Eski otoyolların bazı kesimleri bitki örtüsüyle kapanmıştır.",
+     "file": "s08_07_0.wav",
+     "dur": 3.284
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanlar yoğun trafik yüzünden hayvanların geçemediği bölgeler, artık farklı türlerin hareketine açıktır.",
+     "file": "s08_08_0.wav",
+     "dur": 5.535
+    }
+   ],
+   [
+    {
+     "text": "Ama bu, doğanın bütün sorunlarının çözüldüğü anlamına gelmez.",
+     "file": "s08_09_0.wav",
+     "dur": 3.285
+    }
+   ],
+   [
+    {
+     "text": "Kirlilik, istilacı türler ve geçmişte değiştirdiğimiz ekosistemler etkilerini sürdürür.",
+     "file": "s08_10_0.wav",
+     "dur": 4.756
+    }
+   ],
+   [
+    {
+     "text": "İnsanlar kaybolmuştur.",
+     "file": "s08_11_0.wav",
+     "dur": 1.43
+    }
+   ],
+   [
+    {
+     "text": "Ama insanlığın bıraktığı miras, hâlâ yaşamın yönünü etkilemektedir.",
+     "file": "s08_12_0.wav",
+     "dur": 3.732
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s09",
+  "title": "Yüzlerce yıl sonra",
+  "label": "+500 YIL",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "Aradan yüzyıllar geçti.",
+     "file": "s09_00_0.wav",
+     "dur": 1.449
+    }
+   ],
+   [
+    {
+     "text": "Bazı şehirlerde eski sokakları tanımak artık zor olabilir.",
+     "file": "s09_01_0.wav",
+     "dur": 3.23
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanların cam cepheli binaları, kırılmış pencereleri ve çökmüş bölümleriyle harabeye dönüşmüştür.",
+     "file": "s09_02_0.wav",
+     "dur": 5.176
+    }
+   ],
+   [
+    {
+     "text": "Fakat her şey kaybolmaz.",
+     "file": "s09_03_0.wav",
+     "dur": 1.536
+    }
+   ],
+   [
+    {
+     "text": "Taştan yapılmış anıtlar, büyük temel yapıları ve dayanıklı mühendislik eserleri çok daha uzun süre varlıklarını koruyabilir.",
+     "file": "s09_04_0.wav",
+     "dur": 6.212
+    }
+   ],
+   [
+    {
+     "text": "Yeraltında tüneller, borular ve yapı kalıntıları bulunur.",
+     "file": "s09_05_0.wav",
+     "dur": 3.074
+    }
+   ],
+   [
+    {
+     "text": "Toprağın altında metal, cam, seramik ve plastik parçaları kalır.",
+     "file": "s09_06_0.wav",
+     "dur": 3.764
+    }
+   ],
+   [
+    {
+     "text": "Doğa bazı izleri örter.",
+     "file": "s09_07_0.wav",
+     "dur": 1.478
+    }
+   ],
+   [
+    {
+     "text": "Bazılarını parçalar.",
+     "file": "s09_08_0.wav",
+     "dur": 1.352
+    }
+   ],
+   [
+    {
+     "text": "Bazılarını ise gelecek çağlara taşır.",
+     "file": "s09_09_0.wav",
+     "dur": 2.17
+    }
+   ],
+   [
+    {
+     "text": "Belki bir gün, bir hayvan sürüsü eski bir stadyumun bulunduğu alandan geçer.",
+     "file": "s09_10_0.wav",
+     "dur": 4.058
+    }
+   ],
+   [
+    {
+     "text": "Bir zamanlar on binlerce insanın tezahürat yaptığı yerde artık yalnızca rüzgâr duyulur.",
+     "file": "s09_11_0.wav",
+     "dur": 4.844
+    }
+   ],
+   [
+    {
+     "text": "Stadyumun ne işe yaradığını bilen tek bir canlı bile kalmamıştır.",
+     "file": "s09_12_0.wav",
+     "dur": 3.478
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s10",
+  "title": "Bin yıl sonra",
+  "label": "+1000 YIL",
+  "target": 62,
+  "pre": 2.5,
+  "paras": [
+   [
+    {
+     "text": "Bin yıl sonra Dünya hâlâ dönmektedir.",
+     "file": "s10_00_0.wav",
+     "dur": 2.233
+    }
+   ],
+   [
+    {
+     "text": "Mevsimler değişir.",
+     "file": "s10_01_0.wav",
+     "dur": 1.219
+    },
+    {
+     "text": "Okyanuslar hareket eder.",
+     "file": "s10_01_1.wav",
+     "dur": 1.442
+    },
+    {
+     "text": "Yağmur yağar.",
+     "file": "s10_01_2.wav",
+     "dur": 0.902
+    }
+   ],
+   [
+    {
+     "text": "İnsanlar artık sera gazı salmıyor olsa da geçmişte atmosfere bıraktığımız karbondioksitin etkileri uzun süre devam eder.",
+     "file": "s10_02_0.wav",
+     "dur": 6.468
+    }
+   ],
+   [
+    {
+     "text": "İklim, insanların kaybolduğu gün eski hâline dönmez.",
+     "file": "s10_03_0.wav",
+     "dur": 2.98
+    }
+   ],
+   [
+    {
+     "text": "Okyanusların ve buzulların tepkisi yüzyıllar, hatta bin yıllar boyunca sürebilir.",
+     "file": "s10_04_0.wav",
+     "dur": 4.428
+    }
+   ],
+   [
+    {
+     "text": "Peki ya uzaydaki eserlerimiz?",
+     "file": "s10_05_0.wav",
+     "dur": 1.811
+    }
+   ],
+   [
+    {
+     "text": "Alçak yörüngedeki birçok uydu, atmosferin sürükleme etkisiyle zaman içinde irtifa kaybedip Dünya'ya geri döner.",
+     "file": "s10_06_0.wav",
+     "dur": 5.926
+    }
+   ],
+   [
+    {
+     "text": "Ama daha yüksek yörüngelerdeki bazı nesneler çok daha uzun süre kalabilir.",
+     "file": "s10_07_0.wav",
+     "dur": 3.86
+    }
+   ],
+   [
+    {
+     "text": "Yeryüzünde de insanlığın izleri bütünüyle silinmemiştir.",
+     "file": "s10_08_0.wav",
+     "dur": 2.921
+    }
+   ],
+   [
+    {
+     "text": "Plastikler, endüstriyel maddeler, değişmiş toprak katmanları ve bazı radyoaktif izotoplar geçmişimizin işaretlerini taşımaya devam edebilir.",
+     "file": "s10_09_0.wav",
+     "dur": 7.775
+    }
+   ],
+   [
+    {
+     "text": "İnsanlığın sesi susmuştur.",
+     "file": "s10_10_0.wav",
+     "dur": 1.619
+    }
+   ],
+   [
+    {
+     "text": "Fakat gezegene yazdığı hikâyenin bazı satırları hâlâ okunabilir.",
+     "file": "s10_11_0.wav",
+     "dur": 3.482
+    }
+   ]
+  ]
+ },
+ {
+  "id": "s11",
+  "title": "Son soru",
+  "label": "08:00",
+  "target": 85,
+  "pre": 2.5,
+  "post": 13,
+  "paras": [
+   [
+    {
+     "text": "Şimdi en başa dönelim.",
+     "file": "s11_00_0.wav",
+     "dur": 1.357
+    }
+   ],
+   [
+    {
+     "text": "Saat sabah sekiz.",
+     "file": "s11_01_0.wav",
+     "dur": 1.278
+    }
+   ],
+   [
+    {
+     "text": "Bir anda bütün insanlar ortadan kaybolmuştu.",
+     "file": "s11_02_0.wav",
+     "dur": 2.495
+    }
+   ],
+   [
+    {
+     "text": "O günden bu yana şehirler karardı.",
+     "file": "s11_03_0.wav",
+     "dur": 1.904
+    }
+   ],
+   [
+    {
+     "text": "Makineler sustu.",
+     "file": "s11_04_0.wav",
+     "dur": 1.144
+    }
+   ],
+   [
+    {
+     "text": "Yollar boşaldı.",
+     "file": "s11_05_0.wav",
+     "dur": 1.121
+    }
+   ],
+   [
+    {
+     "text": "Ve doğa, insanların bıraktığı alanları yavaş yavaş değiştirmeye başladı.",
+     "file": "s11_06_0.wav",
+     "dur": 3.848
+    }
+   ],
+   [
+    {
+     "text": "Ama burada önemli bir ayrıntı var.",
+     "file": "s11_07_0.wav",
+     "dur": 1.87
+    }
+   ],
+   [
+    {
+     "text": "Dünya hiçbir zaman yalnızca insanlara ait değildi.",
+     "file": "s11_08_0.wav",
+     "dur": 2.843
+    }
+   ],
+   [
+    {
+     "text": "Biz, milyarlarca yıllık yaşam tarihinin oldukça kısa bir bölümünde ortaya çıktık.",
+     "file": "s11_09_0.wav",
+     "dur": 3.927
+    }
+   ],
+   [
+    {
+     "text": "Gezegen bizden önce de vardı.",
+     "file": "s11_10_0.wav",
+     "dur": 1.664
+    }
+   ],
+   [
+    {
+     "text": "Bizden sonra da var olmaya devam edebilir.",
+     "file": "s11_11_0.wav",
+     "dur": 2.408
+    }
+   ],
+   [
+    {
+     "text": "Bu düşünce deneyinin asıl şaşırtıcı tarafı belki de şehirlerin nasıl yıkılacağı değildir.",
+     "file": "s11_12_0.wav",
+     "dur": 4.509
+    }
+   ],
+   [
+    {
+     "text": "Medeniyetimizin ne kadar büyük bir bakım, işbirliği ve bilgi ağına dayandığını göstermesidir.",
+     "file": "s11_13_0.wav",
+     "dur": 4.723
+    }
+   ],
+   [
+    {
+     "text": "Bir musluktan su akması, bir lambanın yanması, bir köprünün güvenle kullanılabilmesi...",
+     "file": "s11_14_0.wav",
+     "dur": 4.868
+    }
+   ],
+   [
+    {
+     "text": "Bunların hepsi, birbirini hiç tanımayan milyonlarca insanın ortak emeğinin sonucudur.",
+     "file": "s11_15_0.wav",
+     "dur": 4.613
+    }
+   ],
+   [
+    {
+     "text": "Bir gün herkes kaybolsaydı, geride yalnızca binalarımız kalmazdı.",
+     "file": "s11_16_0.wav",
+     "dur": 3.866
+    }
+   ],
+   [
+    {
+     "text": "Yaptığımız seçimlerin sonuçları da kalırdı.",
+     "file": "s11_17_0.wav",
+     "dur": 2.191
+    }
+   ],
+   [
+    {
+     "text": "Peki, bin yıl sonra Dünya'yı ziyaret eden bir uygarlık olsaydı...",
+     "file": "s11_18_0.wav",
+     "dur": 3.46
+    }
+   ],
+   [
+    {
+     "text": "Bizi nasıl tanımlardı?",
+     "file": "s11_19_0.wav",
+     "dur": 1.429
+    }
+   ],
+   [
+    {
+     "text": "Dünyayı değiştiren olağanüstü bir tür olarak mı?",
+     "file": "s11_20_0.wav",
+     "dur": 2.566
+    }
+   ],
+   [
+    {
+     "text": "Yoksa yaşadığı gezegeni değiştirdiğini çok geç fark eden bir tür olarak mı?",
+     "file": "s11_21_0.wav",
+     "dur": 3.778
+    }
+   ],
+   [
+    {
+     "text": "Cevabını yorumlara yaz.",
+     "file": "s11_22_0.wav",
+     "dur": 1.356
+    }
+   ],
+   [
+    {
+     "text": "Çünkü insanlığın hikâyesi henüz bitmedi.",
+     "file": "s11_23_0.wav",
+     "dur": 2.34
+    }
+   ],
+   [
+    {
+     "text": "Ve bundan sonraki sayfayı, bugün yaptıklarımız belirleyecek.",
+     "file": "s11_24_0.wav",
+     "dur": 3.463
+    }
+   ]
+  ]
+ }
+]

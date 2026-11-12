@@ -1,0 +1,26 @@
+{
+  "name": "son-insan-belgesel",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Dünyada Son İnsan da Yok Olursa — 12 dakikalık Remotion animasyonu",
+  "scripts": {
+    "tts": "python3 tools/tts.py",
+    "timeline": "python3 tools/build_timeline.py",
+    "studio": "remotion studio",
+    "render": "remotion render Belgesel out/son-insan.mp4",
+    "still": "remotion still Belgesel out/still.png"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.1.0",
+    "@remotion/bundler": "^4.0.242",
+    "@remotion/cli": "4.0.242",
+    "@remotion/renderer": "^4.0.242",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.242"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
