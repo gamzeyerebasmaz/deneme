@@ -1,0 +1,481 @@
+{
+ "cues": [
+  {
+   "text": "Kombiyi hiç kapatmamanın daha ekonomik olduğunu duyduysan,",
+   "file": "voice/t00.mp3",
+   "at": 0.4,
+   "words": [
+    0.498,
+    1.111,
+    1.303,
+    2.025,
+    2.289,
+    2.746,
+    3.13
+   ],
+   "end": 3.803
+  },
+  {
+   "text": "maalesef yanlış bilgi.",
+   "file": "voice/t01.mp3",
+   "at": 4.003,
+   "words": [
+    4.101,
+    4.811,
+    5.207
+   ],
+   "end": 5.556
+  },
+  {
+   "text": "Herkesin bildiği şu:",
+   "file": "voice/t02.mp3",
+   "at": 6.456,
+   "words": [
+    6.554,
+    7.287,
+    7.587
+   ],
+   "end": 7.84
+  },
+  {
+   "text": "kapatırsan, sabah evi ısıtmak için çok daha fazla gaz yakar.",
+   "file": "voice/t03.mp3",
+   "at": 8.04,
+   "words": [
+    8.138,
+    9.16,
+    9.568,
+    9.7,
+    10.097,
+    10.41,
+    10.65,
+    10.866,
+    11.239,
+    11.503
+   ],
+   "end": 11.876
+  },
+  {
+   "text": "Evet, sabah biraz fazla yakar...",
+   "file": "voice/t04.mp3",
+   "at": 12.476,
+   "words": [
+    12.574,
+    13.259,
+    13.704,
+    14.04,
+    14.377
+   ],
+   "end": 14.725
+  },
+  {
+   "text": "ama bütün gece yaktığı kadar değil.",
+   "file": "voice/t05.mp3",
+   "at": 14.925,
+   "words": [
+    15.024,
+    15.348,
+    15.661,
+    15.937,
+    16.237,
+    16.586
+   ],
+   "end": 16.923
+  },
+  {
+   "text": "Bir bardak çay düşün.",
+   "file": "voice/t06.mp3",
+   "at": 17.823,
+   "words": [
+    17.921,
+    18.474,
+    18.858,
+    19.099
+   ],
+   "end": 19.495
+  },
+  {
+   "text": "Kaynar çay, ılık çaydan çok daha çabuk soğur.",
+   "file": "voice/t07.mp3",
+   "at": 19.845,
+   "words": [
+    19.943,
+    20.568,
+    21.085,
+    21.313,
+    21.782,
+    22.023,
+    22.251,
+    22.563
+   ],
+   "end": 22.9
+  },
+  {
+   "text": "Çünkü sıcaklık farkı büyüdükçe, ısı daha hızlı kaçar.",
+   "file": "voice/t08.mp3",
+   "at": 23.35,
+   "words": [
+    23.448,
+    23.809,
+    24.313,
+    24.674,
+    25.455,
+    25.672,
+    25.888,
+    26.164
+   ],
+   "end": 26.597
+  },
+  {
+   "text": "Evin de aynen böyle çalışır.",
+   "file": "voice/t09.mp3",
+   "at": 27.497,
+   "words": [
+    27.595,
+    28.136,
+    28.244,
+    28.641,
+    28.929
+   ],
+   "end": 29.446
+  },
+  {
+   "text": "İçerisi dışarıdan ne kadar sıcaksa,",
+   "file": "voice/t10.mp3",
+   "at": 29.796,
+   "words": [
+    29.894,
+    30.531,
+    31.108,
+    31.252,
+    31.589
+   ],
+   "end": 32.202
+  },
+  {
+   "text": "ısı duvarlardan ve camlardan o kadar hızlı kaçar.",
+   "file": "voice/t11.mp3",
+   "at": 32.352,
+   "words": [
+    32.45,
+    32.799,
+    33.568,
+    33.7,
+    34.409,
+    34.493,
+    34.83,
+    35.106
+   ],
+   "end": 35.539
+  },
+  {
+   "text": "Kombi gece boyu yirmi iki derecede kalırsa,",
+   "file": "voice/t12.mp3",
+   "at": 36.439,
+   "words": [
+    36.537,
+    36.946,
+    37.222,
+    37.487,
+    37.787,
+    37.943,
+    38.376
+   ],
+   "end": 38.893
+  },
+  {
+   "text": "ev sabaha kadar en hızlı şekilde ısı kaybeder;",
+   "file": "voice/t13.mp3",
+   "at": 39.043,
+   "words": [
+    39.141,
+    39.501,
+    39.862,
+    40.319,
+    40.475,
+    40.751,
+    41.172,
+    41.4
+   ],
+   "end": 41.965
+  },
+  {
+   "text": "kombi de kaybolan ısıyı durmadan geri doldurur.",
+   "file": "voice/t14.mp3",
+   "at": 42.215,
+   "words": [
+    42.313,
+    42.722,
+    42.842,
+    43.395,
+    43.708,
+    44.2,
+    44.429
+   ],
+   "end": 44.958
+  },
+  {
+   "text": "Ama evi biraz serin bırakırsan,",
+   "file": "voice/t15.mp3",
+   "at": 45.858,
+   "words": [
+    45.956,
+    46.316,
+    46.557,
+    46.881,
+    47.182
+   ],
+   "end": 47.879
+  },
+  {
+   "text": "fark küçülür, ısı daha yavaş kaçar.",
+   "file": "voice/t16.mp3",
+   "at": 48.029,
+   "words": [
+    48.127,
+    48.5,
+    49.149,
+    49.365,
+    49.617,
+    49.966
+   ],
+   "end": 50.362
+  },
+  {
+   "text": "Kaçmayan ısı da cebinde kalır.",
+   "file": "voice/t17.mp3",
+   "at": 50.712,
+   "words": [
+    50.811,
+    51.508,
+    51.724,
+    51.844,
+    52.241
+   ],
+   "end": 52.613
+  },
+  {
+   "text": "İngiltere'de bir üniversite bunu gerçek bir deney evinde test etti.",
+   "file": "voice/t18.mp3",
+   "at": 53.513,
+   "words": [
+    53.612,
+    54.525,
+    54.681,
+    55.438,
+    55.667,
+    56.087,
+    56.256,
+    56.556,
+    56.881,
+    57.145
+   ],
+   "end": 57.458
+  },
+  {
+   "text": "Gün boyu açık kalan sistem, on beş saat daha uzun çalıştı",
+   "file": "voice/t19.mp3",
+   "at": 57.908,
+   "words": [
+    58.006,
+    58.426,
+    58.643,
+    58.955,
+    59.292,
+    59.989,
+    60.169,
+    60.301,
+    60.578,
+    60.782,
+    61.035
+   ],
+   "end": 61.527
+  },
+  {
+   "text": "ve yüzde otuz bir daha fazla gaz harcadı.",
+   "file": "voice/t20.mp3",
+   "at": 61.727,
+   "words": [
+    61.825,
+    62.102,
+    62.414,
+    62.691,
+    62.847,
+    63.087,
+    63.436,
+    63.676
+   ],
+   "end": 64.133
+  },
+  {
+   "text": "Tamamen kapatmana da gerek yok.",
+   "file": "voice/t21.mp3",
+   "at": 65.033,
+   "words": [
+    65.131,
+    65.78,
+    66.345,
+    66.453,
+    66.766
+   ],
+   "end": 67.03
+  },
+  {
+   "text": "Evde değilken ya da uyurken termostatı",
+   "file": "voice/t22.mp3",
+   "at": 67.38,
+   "words": [
+    67.478,
+    67.983,
+    68.512,
+    68.644,
+    68.752,
+    69.269
+   ],
+   "end": 69.966
+  },
+  {
+   "text": "on yedi, on sekiz dereceye indirmen yeterli.",
+   "file": "voice/t23.mp3",
+   "at": 70.066,
+   "words": [
+    70.164,
+    70.573,
+    71.066,
+    71.222,
+    71.523,
+    72.003,
+    72.484
+   ],
+   "end": 72.953
+  },
+  {
+   "text": "Ev fazla soğumaz, sabah da çabucak ısınır.",
+   "file": "voice/t24.mp3",
+   "at": 73.303,
+   "words": [
+    73.401,
+    73.87,
+    74.266,
+    74.976,
+    75.372,
+    75.468,
+    75.913
+   ],
+   "end": 76.31
+  },
+  {
+   "text": "Evde bebek, yaşlı ya da hasta varsa, ayarı ona göre yap.",
+   "file": "voice/t25.mp3",
+   "at": 77.21,
+   "words": [
+    77.308,
+    77.813,
+    78.329,
+    78.75,
+    78.846,
+    78.966,
+    79.315,
+    79.952,
+    80.24,
+    80.457,
+    80.733
+   ],
+   "end": 80.938
+  },
+  {
+   "text": "Bu gece yatmadan gaz sayacına bir bak,",
+   "file": "voice/t26.mp3",
+   "at": 81.838,
+   "words": [
+    81.936,
+    82.308,
+    82.621,
+    83.138,
+    83.378,
+    83.835,
+    84.027
+   ],
+   "end": 84.279
+  },
+  {
+   "text": "sabah tekrar bak.",
+   "file": "voice/t27.mp3",
+   "at": 84.479,
+   "words": [
+    84.577,
+    85.082,
+    85.491
+   ],
+   "end": 85.755
+  },
+  {
+   "text": "Farkı kendi gözünle gör.",
+   "file": "voice/t28.mp3",
+   "at": 86.105,
+   "words": [
+    86.203,
+    86.648,
+    86.949,
+    87.405
+   ],
+   "end": 87.646
+  },
+  {
+   "text": "Hâlâ kombiyi hiç kapatmayan birini tanıyorsan,",
+   "file": "voice/t29.mp3",
+   "at": 88.546,
+   "words": [
+    88.644,
+    89.173,
+    89.605,
+    89.81,
+    90.447,
+    90.711
+   ],
+   "end": 91.444
+  },
+  {
+   "text": "onu etiketle ya da bu videoyu gönder.",
+   "file": "voice/t30.mp3",
+   "at": 91.594,
+   "words": [
+    91.692,
+    92.065,
+    92.63,
+    92.762,
+    92.894,
+    93.038,
+    93.399
+   ],
+   "end": 93.88
+  },
+  {
+   "text": "Sırada hangi cihaz olsun?",
+   "file": "voice/t31.mp3",
+   "at": 94.48,
+   "words": [
+    94.578,
+    95.023,
+    95.371,
+    95.756
+   ],
+   "end": 96.176
+  },
+  {
+   "text": "Yorumlara yaz, takip etmeyi de unutma.",
+   "file": "voice/t32.mp3",
+   "at": 96.426,
+   "words": [
+    96.524,
+    97.174,
+    97.582,
+    97.979,
+    98.315,
+    98.448
+   ],
+   "end": 98.904
+  }
+ ],
+ "dur": 102.6
+}
