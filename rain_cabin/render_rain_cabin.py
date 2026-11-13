@@ -108,7 +108,7 @@ plate = plate * 0.75 + glow_c * 0.40 * (np.clip(1 - hfrac, 0, 1) ** 1.3 * xenv)[
 hole_s = cv2.GaussianBlur(hole.astype(np.float32), (0, 0), 4)[..., None]
 plate = roi0 * (1 - hole_s) + plate * hole_s
 
-RISE1, RISE2, RISE3 = 200.0, 135.0, 240.0
+RISE1, RISE2, RISE3 = 160.0, 110.0, 190.0
 n_dx1 = tile_noise(int(RISE1 * T), RW, 26, 20, 1)
 n_dx2 = tile_noise(int(RISE2 * T), RW, 55, 40, 2)
 n_dy1 = tile_noise(int(RISE1 * T), RW, 28, 28, 3)
@@ -141,14 +141,14 @@ def circ(tex, t, radius, phase=0.0):
                      cv2.INTER_LINEAR, borderMode=cv2.BORDER_WRAP)
 
 
-fire_int = periodic_signal(16, 11, 10, 110)
-fire_h = periodic_signal(12, 12, 5, 70)
+fire_int = periodic_signal(16, 11, 6, 70)
+fire_h = periodic_signal(12, 12, 3, 45)
 sway = periodic_signal(8, 13, 2, 30)
 
 ember_zone = smoothstep(-4, 6, -above) * xenv * smoothstep(0.32, 0.6, lum)
 ember_zone = cv2.GaussianBlur(ember_zone, (0, 0), 1.0)
 
-N_SPARK = int(T * 3)
+N_SPARK = int(T * 1.3)
 sp = dict(b=rng.uniform(0, T, N_SPARK), life=rng.uniform(0.4, 1.2, N_SPARK),
           x=rng.normal(rx(372), 20 * S, N_SPARK), y=rng.uniform(ry(625), ry(650), N_SPARK),
           vy=rng.uniform(90, 190, N_SPARK), wob=rng.uniform(3, 10, N_SPARK),
@@ -173,10 +173,10 @@ def draw_sparks(t):
 
 
 def render_fire(t):
-    inten = 1.06 + 0.15 * fire_int(t)
-    hgt = 1.0 + 0.14 * fire_h(t)
+    inten = 1.04 + 0.09 * fire_int(t)
+    hgt = 1.0 + 0.09 * fire_h(t)
     amp = (hfrac ** 1.1) * zone
-    dx = (10.0 * scroll(n_dx1, RISE1, t) + 5.0 * scroll(n_dx2, RISE2, t) + 5.0 * sway(t) * hfrac) * amp
+    dx = (8.0 * scroll(n_dx1, RISE1, t) + 4.0 * scroll(n_dx2, RISE2, t) + 3.5 * sway(t) * hfrac) * amp
     dy = 9.0 * scroll(n_dy1, RISE1, t) * amp + (above * (1 - 1 / hgt)) * zone
     mx = (xx - dx).astype(np.float32)
     my = (yy + dy).astype(np.float32)
@@ -273,7 +273,7 @@ def rain_layer(t):
         acc += cv2.remap(tex, lxx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_WRAP)
     gx_off = ((lxx - 60 * t / T * GW / 60) % GW).astype(np.float32)  # one full drift per loop
     g = cv2.remap(gust, gx_off, lyy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_WRAP)
-    return np.clip(acc * (0.75 + 0.35 * g), 0, 1)
+    return np.clip(acc * (0.85 + 0.15 * g), 0, 1)
 
 
 # ---- water drops on the glass
@@ -310,22 +310,22 @@ def rand_glass_pts(n, r):
 
 
 # static beading drops: appear, grow a little, then vanish (absorbed)
-N_ST = 2600
+N_ST = 3400
 dx_, dy_ = rand_glass_pts(N_ST, rng)
-st_r = np.clip(rng.lognormal(np.log(2.4 * S), 0.5, N_ST), 1.0, 9.0)
+st_r = np.clip(rng.lognormal(np.log(1.5 * S), 0.42, N_ST), 0.8, 5.0)
 st_b = rng.uniform(0, T, N_ST)
 st_life = rng.uniform(6, 26, N_ST)
 st_el = rng.uniform(1.0, 1.2, N_ST)
 
 # runners: big drops sliding down in stop-and-go jerks, leaving a wet trail
-N_RUN = 320
+N_RUN = 130
 run_x, run_y0 = rand_glass_pts(N_RUN, rng)
 keep = run_y0 < GH * 0.75
 run_x, run_y0 = run_x[keep], run_y0[keep]
 N_RUN = len(run_x)
 run_b = rng.uniform(0, T, N_RUN)
 run_life = rng.uniform(5, 13, N_RUN)
-run_r = rng.uniform(3.5, 7.0, N_RUN) * S
+run_r = rng.uniform(2.2, 3.8, N_RUN) * S
 TSTEP = 1.0 / FPS
 run_path = []
 for i in range(N_RUN):
@@ -337,7 +337,7 @@ for i in range(N_RUN):
         if tt > nxt:
             moving = not moving
             nxt = tt + (rng.uniform(0.15, 0.9) if moving else rng.uniform(0.1, 1.2))
-        target = rng.uniform(60, 260) * S if moving else 0.0
+        target = rng.uniform(35, 140) * S if moving else 0.0
         v += (target - v) * 0.35
         y += v * TSTEP
         x += rng.normal(0, 0.25) * (v > 5)
@@ -384,12 +384,12 @@ def render_glass(t):
         # wet trail with tiny beads left behind
         if ys[k] > 2:
             cv2.line(TR, (int(cx * 4), int(cy0 * 4)), (int((cx + xs[k]) * 4), int(cy * 4)),
-                     0.9 * fade_all, max(2, int(run_r[i] * 0.7)), cv2.LINE_AA, shift=2)
-            nb = int(ys[k] / (9 * S)) if ys[k] > run_r[i] * 2 else 0
+                     0.5 * fade_all, max(1, int(run_r[i] * 0.5)), cv2.LINE_AA, shift=2)
+            nb = int(ys[k] / (12 * S)) if ys[k] > run_r[i] * 2 else 0
             br = np.random.default_rng(i)
             for j in range(nb):
                 byy = cy0 + br.uniform(0, ys[k] - run_r[i] * 1.5)
-                spr = sprite(br.uniform(0.9, 1.8) * S)
+                spr = sprite(br.uniform(0.7, 1.2) * S)
                 paste(maps, spr[0], spr, cx + br.normal(0, 0.6), byy, fade_all * 0.9)
         if int(cy) < GH and glass_local[int(cy), int(np.clip(cx, 0, GW - 1))]:
             el = 1.0 + min(0.5, (ys[k] - ys[max(k - 2, 0)]) * 0.08)
@@ -403,12 +403,12 @@ def compose_glass(frame, t):
     reg = frame[GY0:GY1, GX0:GX1]
     view = clean.copy()
     rl = rain_layer(t)[..., None]
-    view = view * (1 - 0.35 * rl) + RAIN_COL * 0.35 * rl
+    view = view * (1 - 0.24 * rl) + RAIN_COL * 0.24 * rl
     A, OX, OY, SH, SP, TR = render_glass(t)
     refr = cv2.remap(bg_drop, lxx + OX, lyy + OY, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
-    drop = refr * 1.12 * SH[..., None] + 0.55 * SP[..., None] * np.array([0.95, 0.95, 0.9], np.float32)
+    drop = refr * 1.03 * SH[..., None] + 0.35 * SP[..., None] * np.array([0.95, 0.95, 0.9], np.float32)
     trail = cv2.remap(bg_drop, lxx + 1.5, lyy, cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
-    view = view * (1 - 0.6 * TR[..., None]) + (trail * 1.3 + 0.05) * 0.6 * TR[..., None]
+    view = view * (1 - 0.4 * TR[..., None]) + (trail * 1.2 + 0.02) * 0.4 * TR[..., None]
     A3 = A[..., None]
     view = view * (1 - A3) + drop * A3
     g = Gc[..., None]
@@ -493,7 +493,7 @@ def steam(t):
 # =================================================================== FRAME
 def frame_at(i):
     t = i / FPS
-    lightk = 0.03 + 0.09 * fire_int(t) + 0.03 * fire_h(t)
+    lightk = 0.03 + 0.055 * fire_int(t) + 0.02 * fire_h(t)
     frame = base * (1 + lightk * room_light3)
     frame[FY0:FY1, FX0:FX1] = render_fire(t)
     compose_glass(frame, t)
