@@ -41,13 +41,13 @@ def slow_lfo(n_terms, seed, lo=1, hi=30):
 
 
 # ---- soft roar of the burning logs
-roar = shaped_noise(40, 500, 1.0, 1)
+roar = shaped_noise(90, 450, 1.0, 1)
 roar *= 0.55 + 0.45 * (0.5 + 0.5 * slow_lfo(10, 2, 2, 60))
 hiss = shaped_noise(2500, 9000, 0.3, 3) * (0.6 + 0.4 * slow_lfo(8, 4, 5, 90))
 
 out = np.zeros((N, 2))
-out[:, 0] += 0.20 * roar + 0.025 * hiss
-out[:, 1] += 0.20 * np.roll(roar, 911) + 0.025 * np.roll(hiss, 1733)
+out[:, 0] += 0.05 * roar + 0.02 * hiss
+out[:, 1] += 0.05 * np.roll(roar, 911) + 0.02 * np.roll(hiss, 1733)
 
 
 def add_event(sig, start, pan):
@@ -74,7 +74,7 @@ def crackle(amp, dur_ms, f_lo, f_hi):
 # ---- small crackles, arriving in little clusters
 t = 0.0
 while t < T:
-    t += rng.exponential(1 / 2.2)                # cluster rate
+    t += rng.exponential(1 / 3.5)                # cluster rate
     n_in = rng.integers(1, 7)
     tc = t
     for _ in range(n_in):
@@ -93,11 +93,11 @@ for _ in range(int(T * 9)):
 # ---- occasional bigger pops / snaps of the wood
 t = 0.0
 while True:
-    t += rng.uniform(3.0, 9.0)
+    t += rng.uniform(2.0, 6.0)
     if t >= T:
         break
     pop = crackle(0.22 * np.exp(rng.normal(0, 0.3)), rng.uniform(8, 18), 300, 3500)
-    thump = crackle(0.10, 30, 80, 400)
+    thump = crackle(0.04, 25, 120, 400)
     s = int(t * SR)
     add_event(pop, s, 0.6)
     add_event(thump, s, 0.6)

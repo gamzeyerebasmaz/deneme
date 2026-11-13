@@ -98,7 +98,7 @@ hole_s = cv2.GaussianBlur(hole.astype(np.float32), (0, 0), 4)[..., None]
 plate = roi0 * (1 - hole_s) + plate * hole_s
 
 # rising turbulence textures: one full texture height per loop -> seamless
-RISE1, RISE2 = 110.0, 70.0                         # px/s
+RISE1, RISE2 = 200.0, 135.0                         # px/s
 NH1, NH2 = int(RISE1 * T), int(RISE2 * T)
 n_dx1 = tile_noise(NH1, RW, 28, 22, 1)
 n_dx2 = tile_noise(NH2, RW, 60, 45, 2)
@@ -107,6 +107,21 @@ n_tip = tile_noise(NH1, RW, 18, 10, 4)
 n_tip2 = tile_noise(NH2, RW, 40, 25, 5)
 # slowly evolving noise for embers: sample a big tile along a circle
 EMB = tile_noise(512, 512, 40, 40, 6)
+# extra procedural flame tongues (vertically stretched noise) for a roaring fire
+RISE3 = 240.0
+NH3 = int(RISE3 * T)
+n_pf1 = tile_noise(NH3, RW, 55, 16, 31)
+n_pf2 = tile_noise(NH1, RW, 30, 9, 32)
+# horizontal profile: a wide bed of fire, strongest in the middle
+xprof = (np.exp(-((xx - 190) / 75.0) ** 2) * 0.9 + np.exp(-((xx - 130) / 30.0) ** 2) * 0.4 +
+         np.exp(-((xx - 255) / 30.0) ** 2) * 0.4) * xenv
+glass_top = smoothstep(18, 40, yy)                 # stay under the fireplace frame
+FIRE_LUT = np.zeros((256, 3), np.float32)          # BGR palette: ember red -> orange -> yellow-white
+for i, v in enumerate(np.linspace(0, 1, 256)):
+    FIRE_LUT[i] = np.array([
+        np.interp(v, [0, .5, .8, 1], [0.0, 0.05, 0.35, 0.8]),
+        np.interp(v, [0, .5, .8, 1], [0.05, 0.35, 0.75, 0.95]),
+        np.interp(v, [0, .5, .8, 1], [0.45, 0.95, 1.0, 1.0])])
 
 
 def scroll(tex, rise, t):
@@ -123,21 +138,21 @@ def circ(tex, t, radius, phase=0.0):
     return cv2.remap(tex, (xx + ox).astype(np.float32), (yy + oy).astype(np.float32), cv2.INTER_LINEAR, borderMode=cv2.BORDER_WRAP)
 
 
-fire_int = periodic_signal(14, 11, 3, 90)      # overall brightness flicker
-fire_h = periodic_signal(10, 12, 2, 50)        # flame height breathing
-sway = periodic_signal(8, 13, 1, 25)           # global lean
+fire_int = periodic_signal(16, 11, 10, 220)      # overall brightness flicker
+fire_h = periodic_signal(12, 12, 5, 140)        # flame height breathing
+sway = periodic_signal(8, 13, 3, 60)           # global lean
 
 ember_zone = smoothstep(-4, 6, -above) * smoothstep(55, 90, xx) * (1 - smoothstep(300, 330, xx))
 ember_zone *= smoothstep(0.35, 0.65, lum)
 ember_zone = cv2.GaussianBlur(ember_zone, (0, 0), 1.0)
 
 # ---------------------------------------------------------------- sparks
-N_SPARK = int(T * 1.6)
+N_SPARK = int(T * 5)
 sp_birth = rng.uniform(0, T, N_SPARK)
-sp_life = rng.uniform(0.6, 1.8, N_SPARK)
-sp_x = rng.normal(190, 40, N_SPARK)
+sp_life = rng.uniform(0.5, 1.5, N_SPARK)
+sp_x = rng.normal(190, 45, N_SPARK)
 sp_y = rng.uniform(150, 175, N_SPARK)
-sp_vy = rng.uniform(70, 150, N_SPARK)
+sp_vy = rng.uniform(120, 240, N_SPARK)
 sp_wob = rng.uniform(4, 14, N_SPARK)
 sp_wf = rng.uniform(1.5, 4, N_SPARK)
 sp_ph = rng.uniform(0, 6.28, N_SPARK)
@@ -163,11 +178,11 @@ SPARK_COL = np.array([0.35, 0.75, 1.0], np.float32)  # BGR warm orange
 
 
 def render_fire(t):
-    inten = 1.0 + 0.10 * fire_int(t)
-    hgt = 1.0 + 0.10 * fire_h(t)
+    inten = 1.08 + 0.16 * fire_int(t)
+    hgt = 1.18 + 0.16 * fire_h(t)
     amp = (hfrac ** 1.2) * zone
-    dx = (7.5 * scroll(n_dx1, RISE1, t) + 3.5 * scroll(n_dx2, RISE2, t) + 4.0 * sway(t) * hfrac) * amp
-    dy = (5.0 * scroll(n_dy1, RISE1, t)) * amp
+    dx = (12.0 * scroll(n_dx1, RISE1, t) + 6.0 * scroll(n_dx2, RISE2, t) + 6.0 * sway(t) * hfrac) * amp
+    dy = (10.0 * scroll(n_dy1, RISE1, t)) * amp
     # vertical stretch around log line: flames grow and shrink
     dy += (above * (1 - 1 / hgt)) * zone
     mx = (xx - dx).astype(np.float32)
@@ -176,16 +191,23 @@ def render_fire(t):
     a = cv2.remap(flame_a, mx, my, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
     # flame tips break off and vanish as they rise
     tipn = 0.6 * scroll(n_tip, RISE1, t) + 0.4 * scroll(n_tip2, RISE2, t)
-    tip = 1 - smoothstep(-0.25, 0.35, hfrac * 1.25 - 0.55 + 0.9 * tipn * hfrac)
+    tip = 1 - smoothstep(-0.2, 0.4, hfrac * 1.1 - 0.6 + 1.1 * tipn * hfrac)
     a = a * (0.25 + 0.75 * tip) if False else a * tip
     a = np.clip(a, 0, 1)
     flame = warped * inten
     out = plate * (1 - a[..., None]) + flame * a[..., None]
+    # procedural tongues licking up from the logs, screen-blended
+    hp = np.clip(above / (185.0 * hgt), 0, 1.2)
+    fld = xprof * (1.05 - hp * 1.1) + 0.55 * scroll(n_pf1, RISE3, t) + 0.35 * scroll(n_pf2, RISE1, t)
+    v = smoothstep(0.30, 0.95, fld) * smoothstep(-4, 10, above) * glass_top
+    v = cv2.GaussianBlur(v, (0, 0), 1.3) * inten
+    col = FIRE_LUT[np.clip(v * 255, 0, 255).astype(np.uint8)] * np.clip(v * 1.6, 0, 1)[..., None]
+    out = 1 - (1 - out) * (1 - 0.9 * col)
     # keep everything outside the flame zone untouched (logs, grate, glass)
     out = roi0 * (1 - zone_blur[..., None]) + out * zone_blur[..., None]
     # embers under/between logs breathe
     e = circ(EMB, t, 60.0) * 0.6 + circ(EMB, t, 25.0, 1.3) * 0.4
-    out *= (1 + ember_zone * (0.22 * e + 0.08 * fire_int(t)))[..., None]
+    out *= (1 + ember_zone * (0.30 * e + 0.15 * fire_int(t)))[..., None]
     # sparks
     sp = draw_sparks(t)
     out = out + sp[..., None] * SPARK_COL
@@ -282,7 +304,7 @@ STEAM_COL = np.array([0.86, 0.9, 0.95], np.float32)
 def frame_at(i):
     t = i / FPS
     fire, inten = render_fire(t)
-    lightk = 0.055 * fire_int(t) + 0.02 * fire_h(t)
+    lightk = 0.03 + 0.09 * fire_int(t) + 0.03 * fire_h(t)
     frame = base * (1 + lightk * room_light3)
     frame[FY0:FY1, FX0:FX1] = fire
     src = frame.copy()
