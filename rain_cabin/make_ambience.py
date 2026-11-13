@@ -138,8 +138,8 @@ while True:                                      # occasional soft drip from the
     place(rain, 0.025 * s, t, rng.choice([rng.uniform(0.0, 0.25), rng.uniform(0.75, 1.0)]))
 
 # =========================================================== MIX
-fire *= 2.4
-rain *= 0.75
+fire *= 2.6
+rain *= 0.53
 mix = fire + rain
 peak = np.abs(mix).max()
 g = 0.80 / peak
