@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="55%" r="70%">
+      <stop offset="0" stop-color="#1b2433"/>
+      <stop offset="1" stop-color="#090c12"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="62%" r="38%">
+      <stop offset="0" stop-color="#ff8a2a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="outer" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ff5a12"/>
+      <stop offset="0.6" stop-color="#ff8c1f"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#fff3d1"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <!-- weather outside: rain streaks + a few snow dots -->
+  <g stroke="#7f9bbd" stroke-width="10" stroke-linecap="round" opacity="0.75">
+    <line x1="150" y1="120" x2="132" y2="185"/>
+    <line x1="215" y1="70"  x2="197" y2="135"/>
+    <line x1="120" y1="250" x2="102" y2="315"/>
+    <line x1="640" y1="95"  x2="622" y2="160"/>
+    <line x1="700" y1="200" x2="682" y2="265"/>
+    <line x1="590" y1="40"  x2="575" y2="92"/>
+  </g>
+  <g fill="#dfe8f3" opacity="0.85">
+    <circle cx="265" cy="150" r="9"/>
+    <circle cx="560" cy="150" r="8"/>
+    <circle cx="690" cy="330" r="9"/>
+    <circle cx="95"  cy="400" r="8"/>
+  </g>
+  <circle cx="400" cy="470" r="300" fill="url(#glow)"/>
+  <!-- arched window / hearth -->
+  <path d="M215,660 L215,370 A185,185 0 0 1 585,370 L585,660" fill="none"
+        stroke="#f3e3c8" stroke-width="20" stroke-linecap="round"/>
+  <line x1="170" y1="662" x2="630" y2="662" stroke="#f3e3c8" stroke-width="20" stroke-linecap="round"/>
+  <!-- flame -->
+  <path d="M400,225 C452,300 528,360 528,470 C528,560 470,625 400,625 C330,625 272,560 272,470
+           C272,408 305,365 335,330 C340,378 358,405 382,418 C370,345 380,285 400,225 Z" fill="url(#outer)"/>
+  <path d="M400,375 C432,420 462,452 462,505 C462,555 435,590 400,590 C365,590 338,555 338,510
+           C338,468 370,432 400,375 Z" fill="url(#inner)"/>
+</svg>
